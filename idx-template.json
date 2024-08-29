@@ -1,0 +1,6 @@
+{
+  "name": "My Custom IDX Template",
+  "description": "A template for a CLI program that prints 'hello world'",
+  "icon": "https://www.gstatic.com/images/branding/productlogos/idx/v1/192px.svg",
+  "params": []
+}
