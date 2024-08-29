@@ -7,18 +7,28 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     # pkgs.go
-    # pkgs.python311
-    # pkgs.python311Packages.pip
+    pkgs.python311
+    pkgs.python311Packages.pip
+    pkgs.jupyter-all
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
+    pkgs.julia
+    pkgs.docker
+    pkgs.docker-compose
   ];
+
+  services.docker.enable = true;
 
   # Sets environment variables in the workspace
   env = {};
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
-      # "vscodevim.vim"
+      "vscodevim.vim"
+      "ms-python.python"
+      "ms-toolsai.jupyter"
+      "julialang.language-julia"
+      "singularitti.vscode-julia-formatter"
     ];
 
     # Enable previews
