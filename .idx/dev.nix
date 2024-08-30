@@ -28,7 +28,7 @@
       "ms-python.python"
       "ms-toolsai.jupyter"
       "julialang.language-julia"
-      "singularitti.vscode-julia-formatter"
+      # "singularitti.vscode-julia-formatter"
     ];
 
     # Enable previews
